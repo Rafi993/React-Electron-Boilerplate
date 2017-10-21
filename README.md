@@ -2,7 +2,7 @@
 Simple React electron boiler plate with webpack 2
 
 ## To Get started
-1. clone the repo 
+1. `git clone https://github.com/Rafi993/React-Electron-Boilerplate.git`
 2. `yarn` or `npm install`
 3. `npm run serve`
 
