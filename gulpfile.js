@@ -1,15 +1,13 @@
 'use strict';
 
-import gulp     from 'gulp';
-import path     from 'path';
-import rename   from 'gulp-rename';
-import template from 'gulp-template';
-import yargs    from 'yargs';
-
-let root = 'client';
+const gulp     = require('gulp');
+const path     = require('path');
+const rename   = require('gulp-rename');
+const template = require('gulp-template');
+const yargs    = require('yargs');
 
 let resolveToComponents = (glob = '') => {
-  return path.join(root, 'app/components', glob); // app/components/{glob}
+  return path.join('app/components', glob); // app/components/{glob}
 };
 
 const blankTemplates = path.join(__dirname, 'template', 'component/**/*.**');
