@@ -10,6 +10,7 @@ module.exports = {
       path.join(__dirname, 'app/app.js')
     ]
   },
+  target: "electron-renderer",
   module: {
     loaders: [{
         test: /\.js?$/,
